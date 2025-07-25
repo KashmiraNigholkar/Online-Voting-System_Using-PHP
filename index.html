@@ -105,7 +105,7 @@
   </div>
 
   <div id="bodysection">
-    <form action="#">
+    <form action="api/login.php" method="POst">
       <h3>Login</h3>
       <input type="number" name="mobile" placeholder="Enter mobile number" required />
       <input type="password" name="password" placeholder="Enter password" required />
@@ -113,7 +113,7 @@
         <option value="1">Voter</option>
         <option value="2">Group</option>
       </select>
-      <button id="loginbtn">Login</button>
+      <button id="loginbtn" type="submit">Login</button>
       <p style="margin-top: 15px; text-align: center;">New user? <a href="routes/register.html">Register here</a></p>
     </form>
   </div>
